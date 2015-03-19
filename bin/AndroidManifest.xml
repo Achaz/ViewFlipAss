@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.breakyourass.net"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+         <!-- Splash screen -->
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+      
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:label="@string/app_name" >
+           <!--  <meta-data 
+               android:name="android.support.UI_OPTIONS"
+               android:value="splitActionBarWhenNarrow" />  -->
+        </activity>
+        
+        <activity 
+            android:name=".Dressing"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        <activity 
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        
+        <activity 
+            android:name=".Duas"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity 
+            android:name=".KidsSection"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity 
+            android:name=".Pillars"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity 
+            android:name=".Praying"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity 
+            android:name=".Ramadan"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity 
+            android:name=".Sunna"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity 
+            android:name=".Verses"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"/>
+        
+        <activity
+            android:name="com.breakyourass.net.ui.activities.ChatActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        
+        <activity
+            android:name="com.breakyourass.net.ui.activities.LoginActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:label="Login" />
+        
+        <activity
+            android:name="com.breakyourass.net.ui.activities.RegistrationActivity"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:label="Registration" />
+        
+    </application>
+
+</manifest>

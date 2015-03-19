@@ -1,0 +1,68 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="11111"
+        android:title=""
+        android:showAsAction="always">
+        <menu>
+    	   
+     
+		     <item
+		         android:id="@+id/dressing"
+		         android:showAsAction="never"
+		         style="@style/Theme.Sherlock"
+		         android:title="Dressing"/>
+       
+		      <item
+		         android:id="@+id/duas"
+		         android:showAsAction="never"
+		         style="@style/Theme.Sherlock"
+		         android:title="Duas"/>
+      
+		      <item
+		         android:id="@+id/kids"
+		         android:showAsAction="never"
+		         style="@style/Theme.Sherlock"
+		         android:title="Kids Section"/>
+      
+		      <item
+		         android:id="@+id/pillars"
+		         android:showAsAction="never"
+		         style="@style/Theme.Sherlock"
+		         android:title="Pillars"/>
+      
+		       <item
+		          android:id="@+id/prayers"
+		          android:showAsAction="never"
+		          style="@style/Theme.Sherlock"
+		          android:title="Prayers"/>
+       
+		       <item
+		          android:id="@+id/ramadan"
+		          android:showAsAction="never"
+		          style="@style/Theme.Sherlock"
+		          android:title="Ramadan"/>
+       
+		       <item
+		          android:id="@+id/sunna"
+		          android:showAsAction="never"
+		          style="@style/Theme.Sherlock"
+		          android:title="Sunna"/>
+       
+		       <item 
+		          android:id="@+id/verses"
+		          android:showAsAction="never"
+		          style="@style/Theme.Sherlock"
+		          android:title="Verses"/>
+       
+		       <item
+		          android:id="@+id/home"
+		          android:showAsAction="never"
+		          style="@style/Theme.Sherlock"
+		          android:title="Home"/>  
+		   </menu>   
+		 </item>   
+      </menu>
+   
